@@ -1,0 +1,30 @@
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial;
+  text-decoration: none;
+  background: #caf;
+  transition: 0.3s; /*Deixa a transição do hover mais suave*/
+}
+
+/*PSEUDO CLASSES DE ESTADO*/
+
+a:hover {
+  /*Utilizado bastante em botões. Muda a cor do background quando o mouse é passado sobre ele*/
+  background: #adf;
+}
+
+/*a:focus {
+  Mais especifico para linkes e elementos que serão focados -- foco pela tecla tabs ou click do mouse
+}*/
+
+a:active {
+  /*Referente a ação de clicar por exemplo em um botão e ele ter uma mudança de estado para indicar que foi clicado.*/
+  background: #cfa;
+  color: #761;
+}
+
+/*a:visited {
+  Específico para evidenciar um link que já foi visitado na página -- não é muito utilizado pois ele sobrescreve os demais acima.
+}*/
