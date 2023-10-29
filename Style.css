@@ -8,7 +8,7 @@ a {
   transition: 0.3s; /*Deixa a transição do hover mais suave*/
 }
 
-/*PSEUDO CLASSES DE ESTADO*/
+/*PSEUDOCLASSES DE ESTADO*/
 
 a:hover {
   /*Utilizado bastante em botões. Muda a cor do background quando o mouse é passado sobre ele*/
@@ -28,3 +28,45 @@ a:active {
 /*a:visited {
   Específico para evidenciar um link que já foi visitado na página -- não é muito utilizado pois ele sobrescreve os demais acima.
 }*/
+
+/*PSEUDOCLASSES DE SELETORES (precisa ter uma relação de pai e filho)
+
+ -- :first-child 
+ Seleciona o primeiro elemento 
+
+ --:last-child
+ Selecione o último elemento 
+
+ --:nth-child(4)
+ ordem do elemento, nesse caso o da posição 4
+ even(pares)
+ odd(ímpares)
+ 3n(3 em 3)
+
+ -- :not
+ Nega a seleção de um elemento específico
+*/
+.lista-1 li:first-child {
+  background: #cfa;
+}
+
+.lista-1 li:last-child {
+  background: #caf;
+}
+
+.lista-1 li:nth-child(3) {
+  background: tomato;
+}
+
+.lista-2 li:nth-child(even) {
+  background: #adf;
+}
+
+.lista-3 li:not(:first-child, :last-child) {
+  background: #caf;
+}
+
+section h2:not(.contato) {
+  color: #2b2b2b;
+  text-decoration: underline;
+}
