@@ -1,3 +1,2 @@
-# pseudoclasses no css
+# Estudo de pseudoclasses do CSS
 
-<p>Estudo de pseudoclasses do css</p>
