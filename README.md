@@ -1,2 +1,3 @@
-# Estudo de pseudoclasses do CSS
+# Estudo pessoal
+Anotações sobre seletores e pseudoclasses do CSS
 
